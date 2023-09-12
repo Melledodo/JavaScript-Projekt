@@ -5,23 +5,37 @@ header {
 }
 
 #logo {
-    scale: 0.6;
+    scale: 1;
+    justify-content: center; 
+    align-items: center; 
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 110px;
 }
 
 ul, li {
     list-style: none;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: space-evenly;
     font-family: LunchBoxLight;
     color: #99aeae;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none; 
+    color: #99aeae
+}
+
+a:hover {
+    color: blue;
 }
 
 li img {
@@ -35,14 +49,6 @@ li img {
     src: url(../Fonts/LunchBox-Light.ttf)
 }
 
-
-/*JAVASCRIPT CSS*/
-
-#lillian {
-    background: rgb(255, 248, 170);
-    width: 100px;
-    height: 20px;
-}
 
 #lisbet {
     background: rgb(255, 165, 165);
