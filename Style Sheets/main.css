@@ -1,0 +1,63 @@
+/*MAIN*/
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    scale: 0.6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: LunchBoxLight;
+    color: #99aeae;
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+}
+
+/*FONTS*/
+@font-face {
+    font-family: LunchBoxLight;
+    src: url(../Fonts/LunchBox-Light.ttf)
+}
+
+
+/*JAVASCRIPT CSS*/
+
+#lillian {
+    background: rgb(255, 248, 170);
+    width: 100px;
+    height: 20px;
+}
+
+#lisbet {
+    background: rgb(255, 165, 165);
+    width: 100%;
+    height: 600px;
+}
+
+#cashbee {
+    background: rgb(171, 165, 255);
+    width: 100%;
+    height: 600px;
+}
+
+#sarah {
+    background: rgb(168, 255, 165);
+    width: 100%;
+    height: 600px;
+}
