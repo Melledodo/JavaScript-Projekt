@@ -84,10 +84,12 @@ alert(msg);
 
 //Cecilie
 document.getElementById("cashbee").onclick = function() {hestFunc()};
-
 document.getElementById("modalBG").style.display = "none";
-document.getElementsByClassName("modal").style.display = "none";
 
 function hestFunc() {
   document.getElementById("modalBG").style.display = "flex";
+  document.getElementById("cashbee").onclick = function() {hestLuk()};
+  function hestLuk() {
+    document.getElementById("modalBG").style.display = "none";
+  }
 }
