@@ -11,6 +11,7 @@
 header {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: -30px;
 }
 
 #logo {
@@ -26,6 +27,8 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100px;
+    top: 0;
+    position: sticky;
 }
 
 .dropdown-content {
