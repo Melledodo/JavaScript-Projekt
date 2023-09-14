@@ -69,7 +69,16 @@ li img {
 
 }
 
-.billeder
+#container
 {
-    margin-left: auto;
+display: flex;
+flex-direction: none;
+justify-content: center;
+align-items: center;
+}
+
+.billeder {
+    width:300px;
+    margin: 5px;
+    text-align:center;
 }
