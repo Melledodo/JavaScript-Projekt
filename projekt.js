@@ -58,9 +58,9 @@ var images = [];
 var time = 2000;
 
 // image list
-images[0] = 'mailef-dobbel1.jpg';
-images[1] = 'maileg-dobbel2.jpg';
-images[2] = 'maileg-dobbel3.jpg';
+images[0] = 'images/mailef-dobbel1.jpg';
+images[1] = 'images/maileg-dobbel2.jpg';
+images[2] = 'images/maileg-dobbel3.jpg';
 
 
 
