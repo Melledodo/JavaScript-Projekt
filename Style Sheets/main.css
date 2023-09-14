@@ -159,6 +159,14 @@ align-items: center;
 height: 300px;
 border: 1px solid black;
 }
+#billeder {
+display: flex;
+flex-direction: none;
+justify-content: center;
+align-items: center;
+height: 300px;
+border: 1px solid black;
+}
 
 .box {
     width: 300px;
