@@ -59,7 +59,7 @@ ul, li {
     padding: 15px;
     display: flex;
     justify-content: space-evenly;
-    font-family: lunchbox-light;
+    font-family: 'Courier New', Courier, monospace;
     color: #99aeae;
     font-size: 16px;
     font-weight: bold;
