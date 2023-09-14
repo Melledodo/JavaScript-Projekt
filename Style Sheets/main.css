@@ -246,6 +246,7 @@ p {
 
 /*CASHBEE CSS*/
 #cashbee {
+    display: block;
     background: #99aeae;
     width: 100vw;
     height: 700px;
