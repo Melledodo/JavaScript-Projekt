@@ -267,7 +267,7 @@ p {
     }
 
 /*Hotspot – Knapper*/
-    button {
+    #knapHest {
         background: none;
         position: absolute;
         width: 30px;
