@@ -14,9 +14,10 @@ header {
 }
 
 #logo {
-    scale: 1;
     justify-content: center; 
     align-items: center; 
+    display: flex;
+    margin-right: 110px;
 }
 
 nav {
@@ -25,6 +26,30 @@ nav {
     align-items: center;
     height: 110px;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(114, 107, 107, 0.5);
+    border-radius: 30px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 9px 12px;
+    text-decoration: none;
+    display: block;
+    
+   
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
 
 ul, li {
     list-style: none;
@@ -38,19 +63,24 @@ ul, li {
     font-weight: bold;
 }
 
+.dropbtn li {
+    padding: 0;
+}
+
 a {
     text-decoration: none; 
     color: #99aeae
-}
-
-a:hover {
-    color: blue;
 }
 
 li img {
     width: 20px;
     height: 20px;
 }
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
 
 /*FONTS*/
 @font-face {
