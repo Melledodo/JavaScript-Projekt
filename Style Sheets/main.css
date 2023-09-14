@@ -150,7 +150,7 @@ a:hover {
 }
 
 .active, .dot:hover {
-    background-color: #99aeae7e;
+    background-color: #99aeae63;
 }
 
 /*Fading animation */
