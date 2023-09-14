@@ -81,3 +81,13 @@ function besked1(){
 let msg = document.getElementById('besked').value + " er nu tilmeldt nyhedsbrev";
 alert(msg);
 }
+
+//Cecilie
+document.getElementById("cashbee").onclick = function() {hestFunc()};
+
+document.getElementById("modalBG").style.display = "none";
+document.getElementsByClassName("modal").style.display = "none";
+
+function hestFunc() {
+  document.getElementById("modalBG").style.display = "flex";
+}
