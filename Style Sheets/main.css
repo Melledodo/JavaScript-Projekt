@@ -17,7 +17,8 @@ header {
     justify-content: center; 
     align-items: center; 
     display: flex;
-    margin-right: 170px;
+    margin-right: 180px;
+    margin-top: 10px;
 }
 
 nav {
