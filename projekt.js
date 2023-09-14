@@ -48,21 +48,6 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 }
 
-
-//Cecilie
-// Get the modal
-var ebModal = document.getElementById('mySizeChartModal');
-
-// Get the button that opens the modal
-var ebBtn = document.getElementById("mySizeChart");
-
-// When the user clicks the button, open the modal 
-ebBtn.onclick = function() {
-    ebModal.style.display = "block";
-}
-
-
-
 //Sarah
 
 {var i = 0; //start point
