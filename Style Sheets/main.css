@@ -1,11 +1,11 @@
 /*MAIN*/
+html { scroll-behavior: smooth; }
 
 *{
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
-
 }
 
 header {
@@ -18,7 +18,7 @@ header {
     justify-content: center; 
     align-items: center; 
     display: flex;
-    margin-right: 170px;
+    margin-right: 150px;
     margin-top: 10px;
 }
 
@@ -59,7 +59,7 @@ ul, li {
     padding: 15px;
     display: flex;
     justify-content: space-evenly;
-    font-family: LunchboxLight;
+    font-family: lunchbox-light;
     color: #99aeae;
     font-size: 16px;
     font-weight: bold;
