@@ -71,12 +71,11 @@ li img {
 /* Slideshow container */
 
 .slideshow-container {
-    width: 650px;
-    height: 250px;
+    width: 750px;
+    height: 350px;
     margin: 50px auto;
     border: 1px solid #aaa;
     text-align: center;
-
 }
 
 .myslides {display:none;}
