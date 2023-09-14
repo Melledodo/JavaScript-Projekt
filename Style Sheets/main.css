@@ -100,7 +100,7 @@ a:hover {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background: #99aeae;
+    background: #ffffff;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -109,10 +109,9 @@ a:hover {
 /* Slideshow container */
 
 .slideshow-container {
-    width: 1365px;
+    width: 1385px;
     height: 600px;
     margin: 50px auto;
-    border: 1px solid #aaa;
     text-align: center;
 }
 
