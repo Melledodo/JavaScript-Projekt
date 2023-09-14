@@ -66,6 +66,10 @@ li img {
     background: rgb(168, 255, 165);
     width: 100%;
     height: 600px;
-    margin-right: 2000px;
 
+}
+
+.billeder
+{
+    margin-left: auto;
 }
