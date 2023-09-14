@@ -114,7 +114,7 @@ a:hover {
 /* Slideshow container */
 
 .slideshow-container {
-    width: 1365px;
+    width: 1445px;
     height: 600px;
     margin: 50px auto;
     text-align: center;
@@ -125,7 +125,7 @@ a:hover {
 
 .img {
     width: 1000px;
-    height: 600px;
+    height: 780px;
     object-fit: cover;
 }
 
