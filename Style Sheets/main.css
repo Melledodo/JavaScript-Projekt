@@ -149,7 +149,7 @@ align-items: center;
     text-align:center;
 }
 
-
+#michelle {
 
     .hero{
         width: 100%;
@@ -194,4 +194,4 @@ align-items: center;
         width: 100px;
         cursor: pointer;
     }
-    
+}
