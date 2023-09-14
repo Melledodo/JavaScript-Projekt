@@ -17,11 +17,7 @@ header {
     justify-content: center; 
     align-items: center; 
     display: flex;
-<<<<<<< HEAD
-    margin-right: 150px;
-=======
-    margin-right: 110px;
->>>>>>> 9893a48d4bd1c368eb0fdd481afbced3d73f412d
+    margin-right: 120px;
 }
 
 nav {
