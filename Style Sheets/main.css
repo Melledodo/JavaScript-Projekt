@@ -274,7 +274,7 @@ border: 1px solid rgb(255, 255, 255);
     position: relative;
 }
 
-.hotBut {
+#modOpen {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -285,9 +285,6 @@ border: 1px solid rgb(255, 255, 255);
     width: 30px;
     height: 30px;
     cursor: pointer;
-}
-
-#knapHest {
     top: 310px;
     left: 115px;
 }
@@ -332,7 +329,7 @@ border: 1px solid rgb(255, 255, 255);
     margin-top: 50px;
 }
 
-.luk {
+#modClose {
     position: absolute;
     top: 115px;
     left: 83.5vw;

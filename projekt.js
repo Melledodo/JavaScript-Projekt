@@ -83,13 +83,14 @@ alert(msg);
 }
 
 //Cecilie
-document.getElementById("cashbee").onclick = function() {hestFunc()};
+document.getElementById("modOpen").onclick = function() {hestFunc()};
 document.getElementById("modalBG").style.display = "none";
 
 function hestFunc() {
   document.getElementById("modalBG").style.display = "flex";
-  document.getElementById("cashbee").onclick = function() {hestLuk()};
+  document.getElementById("modClose").onclick = function() {hestLuk()};
   function hestLuk() {
     document.getElementById("modalBG").style.display = "none";
+    removeEventListener(document.getElementById("modClose").onclick = function() {hestLuk()})
   }
 }
